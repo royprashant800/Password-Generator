@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background: url(bg7.jpg) center center/cover no-repeat;
+    height: 825px;
+    overflow: hidden;
+}
+
+p {
+	margin: 5px 0;
+}
+
+h2 {
+	margin: 10px 0 20px;
+	text-align: center;
+}
+
+input[type=checkbox] {
+	margin-right: 0;
+}
+
+.container {
+	height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 39px;
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0px 0px 30px 8px white;
+    font-family: cursive;
+    padding: 2px 26px;
+}
+
+.result-container {
+    background-color: rgb(0 84 130 / 45%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: relative;
+	font-size: 18px;
+	letter-spacing: 1px;
+	padding: 12px 10px;
+	height: 50px;
+	width: 100%;
+}
+
+.result-container #result {
+  	word-wrap: break-word;
+	max-width: calc(100% - 40px);
+}
+
+.result-container .btn {
+	font-size: 20px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	height: 40px;
+	width: 40px;
+}
+
+.clip i{
+    font-size: 27px;
+}
+
+.btn {
+	width: 90%;
+    padding: 9px 24px;
+    margin: 12px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #01295f;
+    color: white;
+    font-family: cursive;
+}
+
+.setting {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 15px 0;
+    font-size: 21px;
+}
+
+@media screen and (max-width: 400px) {
+	.result-container {
+		font-size: 14px;
+	}
+}
